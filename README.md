@@ -11,7 +11,7 @@
 
 map所在的key代表一个房间,set代表这个房间内所存在的人数
 
-		Set<Session> sessions = stringSetMap.get(user);
+	Set<Session> sessions = stringSetMap.get(user);
         if (sessions == null) {
             sessions = new HashSet<>();
         }
@@ -27,7 +27,7 @@ map所在的key代表一个房间,set代表这个房间内所存在的人数
 
 发送消息给此房间内的所有人
 
-		Set<Session> sessions = stringSetMap.get(user);
+	Set<Session> sessions = stringSetMap.get(user);
         for (Session client : sessions) {
             synchronized (ChatServer.class) {
                 client.getAsyncRemote().sendText(text);
