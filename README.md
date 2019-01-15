@@ -1,6 +1,6 @@
 # websocket
 
-[点击访问聊天室](www.ccx1.top/chat/chat.jsp)
+[点击访问聊天室](https://www.ccx1.top/chat/chat.jsp)
 
  主要处理核心是后端
 
