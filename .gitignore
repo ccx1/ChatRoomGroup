@@ -3,7 +3,6 @@
 local.properties
 .DS_Store
 androidTest
-test
 build
 gradlew
 gradlew.bat
